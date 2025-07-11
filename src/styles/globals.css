@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Outfit:wght@100..900&display=swap');
+@import 'tailwindcss';
+@import 'aos/dist/aos.css';
+
+
+:root {
+  --primary: #2f3542;
+  --secondary: #eccc68;
+}
+
+;
+
+* {
+  font-family: "Outfit";
+}
+
+.error {
+  width: 100%;
+  border-radius: 3rem;
+}
+
+
+
+/* Skeleton */
+
+.blinking, .skeletonText, .skeletonImg {
+  animation: blinking 2s infinite;
+}
+.skeletonText, .skeletonImg {
+  height: 2rem;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Shiny text */
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
+
+.shine {
+  animation: shine 5s linear infinite;
+}
+
+/* Svg */
+.svg-container {
+  
+}
