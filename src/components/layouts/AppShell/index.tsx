@@ -5,9 +5,7 @@ import KatsuNavbar from "../Navbar";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import FullscreenIntro from "@/components/elements/Intro";
-// import SplashCursor from '@/components/elements/SplashCursor';
-
-
+import SplashCursor from '@/components/elements/SplashCursor';
 
 type AppShellProps = {
   children: React.ReactNode;
@@ -26,7 +24,7 @@ export default function AppShell({ children }: AppShellProps) {
 
   return (
     <>
-      {/* <SplashCursor /> */}
+      <SplashCursor />
       <ClickSpark
         sparkColor="#2f3542"
         sparkSize={10}
@@ -42,12 +40,6 @@ export default function AppShell({ children }: AppShellProps) {
             <Footer />
           </main>
         )}
-
-        {/* <main className="p-2">
-          <KatsuNavbar />
-          {children}
-          <Footer />
-        </main> */}
       </ClickSpark>
     </>
   );

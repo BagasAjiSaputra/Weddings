@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -73,7 +74,6 @@ export default function AnimatedSvgPath() {
 
   return (
     <div className="svg-container relative w-full h-[300vh] bg-white overflow-hidden">
-      {/* SVG stays untouched */}
       <svg
         width="1250"
         height="100%"
@@ -91,7 +91,6 @@ export default function AnimatedSvgPath() {
         />
       </svg>
 
-      {/* Floating Story Cards */}
       {storySteps.map((step, index) => (
         <motion.div
           key={index}
@@ -101,17 +100,20 @@ export default function AnimatedSvgPath() {
           transition={{ duration: 0.6, delay: index * 0.2 }}
           className={`absolute w-[300px] p-4 bg-white rounded-2xl shadow-xl ${
             index === storySteps.length - 1
-              ? "right-[20%] md:right-[25%]" // custom agak ke tengah di layar besar
+              ? "right-[20%] md:right-[25%]"
               : step.align === "left"
               ? "left-[5%]"
               : "right-[5%]"
           }`}
           style={{ top: step.top }}
         >
-          <img
+          <Image
             src={step.img}
             alt={step.title}
+            width={800}
+            height={300}
             className="w-full h-40 object-cover rounded-xl mb-4"
+            priority
           />
           <h3 className="text-lg font-semibold text-gray-800">{step.title}</h3>
           <p className="text-gray-600 text-sm mt-2 leading-relaxed">

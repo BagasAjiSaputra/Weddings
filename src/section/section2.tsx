@@ -3,16 +3,10 @@
 
 import { motion } from "framer-motion";
 import { FaHeart } from "react-icons/fa";
-// import Image from "next/image";
 import "aos/dist/aos.css";
 import AnimatedSvgPath from "@/pages/line";
-// import { useEffect } from "react";
-// import { animateScrollPath } from "@/scripts/script";
 
 export default function Section2() {
-  //   useEffect(() => {
-  //   animateScrollPath();
-  // }, []);
 
   return (
     <>
