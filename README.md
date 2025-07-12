@@ -1,4 +1,4 @@
-# 💍 Weddings — Personal Wedding Story Website
+# Weddings — Personal Wedding Story Site
 
 A beautifully designed interactive storytelling website for a wedding event, built using **Next.js**, **Tailwind CSS**, and **Framer Motion**. This project captures a love story through elegant scroll-based animations and visuals.
 
