@@ -4,17 +4,17 @@ A beautifully designed interactive storytelling website for a wedding event, bui
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🖼️ Full-screen scroll-based storytelling
-- ❤️ Animated SVG path (love journey timeline)
-- 🎞️ Smooth animations with Framer Motion
-- 📱 Fully responsive design
-- 🌙 Clean and minimal modern UI
+-  Full-screen scroll-based storytelling
+-  Animated SVG path (love journey timeline)
+-  Smooth animations with Framer Motion
+-  Fully responsive design
+-  Clean and minimal modern UI
 
 ---
 
-## 📸 Preview
+##  Preview
 
 You can view the layout and scroll animation locally by running the development server. Sections are optimized for both mobile and desktop devices.
 
@@ -30,7 +30,7 @@ You can view the layout and scroll animation locally by running the development 
 
 ---
 
-## 📦 Getting Started
+##  Getting Started
 
 ```bash
 # Clone the repository
