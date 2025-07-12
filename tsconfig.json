@@ -17,6 +17,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layouts/AppShell/Click.tsx", "src/section/section2.tsx", "src/pages/contact/index.tsx", "src/components/elements/SplashCursor.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layouts/AppShell/Click.tsx", "src/section/section2.tsx", "src/pages/contact/index.tsx", "src/components/elements/SplashCursor.tsx", "src/pages/test/index.jsx"],
   "exclude": ["node_modules"]
 }

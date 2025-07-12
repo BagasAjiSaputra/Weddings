@@ -31,7 +31,7 @@ export default function FullscreenIntro() {
     <>
       {!hide && (
         <div
-          className="z-50 fixed top-0 left-0 w-full h-full bg-[#191919] flex items-center justify-center"
+          className="z-50 fixed top-0 left-0 w-full h-full bg-[#ced6e0] flex items-center justify-center"
           style={{
             animationName: "slideDownIn",
             animationDuration: "1.3s",
@@ -40,7 +40,7 @@ export default function FullscreenIntro() {
           }}
         >
           <Image
-            src="/logo.jpg"
+            src="/weddings.svg"
             alt="logo"
             width={250}
             height={250}
@@ -67,7 +67,7 @@ export default function FullscreenIntro() {
 
       {hide && (
         <div
-          className="z-50 fixed top-0 left-0 w-full h-full bg-[#191919]"
+          className="z-50 fixed top-0 left-0 w-full h-full bg-[#ced6e0]"
           style={{
             animationName: "slideDownOut",
             animationDuration: "1.3s",

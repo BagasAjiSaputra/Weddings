@@ -34,7 +34,7 @@ export default function LocationsPage() {
           >
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">Wedding Ceremony</h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              20 December 2025, 10:00 AM<br />
+              20 August 2025, 10:00 AM<br />
               Holy Chapel Garden<br />
               Jl. Mawar No. 123, Jakarta
             </p>
@@ -57,7 +57,7 @@ export default function LocationsPage() {
           >
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">Reception Party</h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              20 December 2025, 6:00 PM<br />
+              25 August 2025, 6:00 PM<br />
               Grand Hyatt Ballroom<br />
               Jl. Thamrin No. 1, Jakarta
             </p>

@@ -15,7 +15,7 @@ const timeline = [
     image: '/hero2.jpeg',
   },
   {
-    date: '20 MAY 2025',
+    date: '20 AUG 2025',
     title: 'THE NEXT JOURNEY',
     image: '/hero.jpg',
   },

@@ -37,13 +37,13 @@ export default function SaveTheDatePage() {
     setHasMounted(true)
 
     const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft('2025-12-20T10:00:00'))
+      setTimeLeft(calculateTimeLeft('2025-08-25T10:00:00'))
     }, 1000)
 
     return () => clearInterval(timer)
   }, [])
 
-  if (!hasMounted) return null // ⛔ Avoid hydration mismatch
+  if (!hasMounted) return null 
 
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-white px-6 py-16">
@@ -63,7 +63,7 @@ export default function SaveTheDatePage() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-lg md:text-xl text-gray-600 font-light"
         >
-          We&apos;re getting married on <span className="font-semibold text-black">20 December 2025</span>
+          We&apos;re getting married on <span className="font-semibold text-black">20 AUG 2025</span>
         </motion.p>
 
         <motion.div
