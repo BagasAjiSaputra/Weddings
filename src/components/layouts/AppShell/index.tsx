@@ -1,7 +1,7 @@
 "use client";
 import Footer from "../Footer";
 import ClickSpark from "@/components/elements/Click";
-import KatsuNavbar from "../Navbar";
+import CustomNav from "@/components/layouts/Navbar";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import FullscreenIntro from "@/components/elements/Intro";
@@ -35,7 +35,7 @@ export default function AppShell({ children }: AppShellProps) {
         {showIntro && <FullscreenIntro />}
         {!showIntro && (
           <main className="p-4">
-            <KatsuNavbar />
+            <CustomNav />
             {children}
             <Footer />
           </main>

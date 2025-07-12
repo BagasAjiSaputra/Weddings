@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Squeeze as Hamburger } from "hamburger-react";
 import { TbMapSearch } from "react-icons/tb";
 
-export default function KatsuNavbar() {
+export default function CustomNav() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
