@@ -1,6 +1,6 @@
 "use client";
 import Footer from "../Footer";
-import ClickSpark from "@/components/elements/Click";
+// import ClickSpark from "@/components/elements/Click";
 import CustomNav from "@/components/layouts/Navbar";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
@@ -25,13 +25,15 @@ export default function AppShell({ children }: AppShellProps) {
   return (
     <>
       <SplashCursor />
-      <ClickSpark
+      {/* <ClickSpark
         sparkColor="#2f3542"
         sparkSize={10}
         sparkRadius={15}
         sparkCount={8}
         duration={400}
-      >
+      > 
+       </ClickSpark>
+      */}
         {showIntro && <FullscreenIntro />}
         {!showIntro && (
           <main className="p-4">
@@ -40,7 +42,7 @@ export default function AppShell({ children }: AppShellProps) {
             <Footer />
           </main>
         )}
-      </ClickSpark>
+      
     </>
   );
 }
